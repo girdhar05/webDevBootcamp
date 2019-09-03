@@ -1,0 +1,50 @@
+<DOCTYPE html>
+<html lang="en">
+	<head>
+	
+	</head>
+	
+	<body>
+		<!-- input attributes of form -->
+		<form action="">
+			<!-- value="something" - which gives initial value to the input element -->
+			First Name: <input type="text" name="f-name" value="Rishu">
+			
+			<!-- disabled attribute - that is cannot be used by the users -->
+			<!-- this attributes can be written as disabled="disabled" also -->
+			Middle Name: <input type="text" name="m-name" disabled>
+			
+			<!-- size="40" - this attribute gives size of text box -->
+			Last Name: <input type="text" name="l-name" size="20">
+			
+			<!-- maxlength="10" - this restrict the user to enter 10 character in input field -->
+			Mobile Number: <input type="number" name="m-no" maxlength="10">
+			
+				<br><br>
+			
+			<!-- autocomplete="off" or "on" - gives info to browser to autocomplete the rest text if it is save in the browser -->
+			Email: <input type="email" name="email" autocomplete="on">
+			
+			<!-- autofocus - this attribute will focus the input element when it loads for the first time -->
+			Website Name: <input type="url" name="url" autofocus>
+			
+			<!-- placeholder="some value" - this give some text in the background of the input field -->
+			User Name: <input type="text" name="user-name" placeholder="Enter username">
+			
+			<!-- required - this attribute restrict the user for not making the field blank -->
+			Password: <input type="password" name="pass" required>
+			
+			<!-- pattern="[a-z0-9@.]{6}" - this mean 6-character allowed and a-z, 0-9, @, . are allowed only -->
+			Repeat Password: <input type="password" name="password" pattern="[a-z0-9@.]{6}">
+			
+				<br><br>
+			
+			<!-- multiple - this attribute allow multiple thing for the input elemnet -->
+			Choose File: <input type="file" name="file-name" multiple>
+			
+				<br><br>
+			
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
