@@ -1,0 +1,39 @@
+
+
+.box {
+	width: 500px;
+	height: 250px;
+	background-image: url('catchy.jpg');
+	border: 5px dashed #52a952;
+	margin: auto;
+}
+
+.offer {
+	margin: 0% 0% 0% 32%;
+	font-family: serif;
+	color: red;
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+.off {
+	font-weight: bolder;
+	font-size: 85px;
+	margin: 4px 0px 0px 15%;
+}
+
+.discount {
+	font-family: cursive;
+	font-size: 25px;
+	color: red;
+	margin: 3% 25% 0% 30%;
+}
+
+.tc {
+	margin: 3% 0% 0% 68%;
+	font-size: smaller;
+}
+
+.scissor {
+	margin: -4px 122px;
+}
