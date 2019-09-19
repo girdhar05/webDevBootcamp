@@ -1,0 +1,73 @@
+.background {
+	/* shorhand property of background:-
+			background: color image repeat attachment position
+	*/
+	
+	background-color: lightgrey;
+	background-image: url('jarvis and ultron.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right bottom;
+}
+
+.border1 {
+	/* shorthand property of border:- */
+		/* border: width style color */
+	
+	/* border: 2px solid red; */
+	border-width: 5px;
+	border-style: dashed; 
+	/* no border should be displayed if 'border-style' property is omitted */
+	/* border-style can have many values like: solid, dotted, dashed, double, none  */
+	border-color: green;
+	/* border-radius gives the rounded border around corners */
+	border-radius: 10px;
+	
+}
+
+.border2 {
+	/* box convention: if any box you made then first property for top and 2nd for right and so-on in clockwise direction will apply*/
+	border-top-style: dotted;
+	border-style: dotted double dashed none;
+}
+
+.margin {
+	border: 1px solid red;
+	/* when all side specified by individually */
+	margin: 5px 6px 3px 10px;
+	/* first and last value are for top and bottom respectively and mid-value for left and right both */
+	margin: 5px 4px 10px;
+	/* first value for top and bottom and 2nd value for left and right */
+	margin: 4px 7px;
+	/* first value for all 4 side */
+	/* last margin is applied to the page because it is last effect that cascade on all value */
+	/* margin percent value tells related to parent width. */
+	margin: 10%;
+	/* you can also specify single-side margin by speicifying the side */
+	margin-top: 20px;
+}
+
+.padding {
+	border: 1px solid red;
+	/* like margin padding also have 4-value, 3-value, 2-value, 1-value of padding. */
+	padding: 15px 10px 15px;
+	/* you can also specify single-side padding by putting side property. */
+	padding-top: 20px;
+	/* inorder to fix the size of the width size of element when we put padding into the element. */
+	box-sizing: border-box;
+}
+
+.width-height {
+	width: 50%;
+	height: 200px;
+	background: lightgreen;
+	/* width property overide the max-width property */
+	max-width: 60%;
+}
+
+.in-div {
+	/* inherit means value comes from its parent element */
+	width: inherit;
+	height: inherit;
+	background: red;
+}
