@@ -1,0 +1,87 @@
+/* "*" defines all the element of html, so select all html and make all of its margin and padding to 0.... */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.box-model {
+	width: 300px;
+	height: 300px;
+	background: lightgreen;
+	border: 10px solid red;
+	padding: 10px;
+	margin: 20px;
+	box-sizing: border-box;
+}
+
+.outline {
+	width: 200px;
+	height: 200px;
+	background: pink;
+	border: 5px solid purple;
+	margin: 30px;
+	padding: 10px;
+	/* outline has all same property and values like border except "outline-offset" property */
+	/* outline-offset property tells about after how much pixel from the border, the outline starts.... */
+	/* outline is not a part of box-model, so any other element after the div have no margin then they overlap on outline... */
+	outline: 3px dashed green;
+	outline-offset: 5px;
+}
+
+.text {
+	width: 700px;
+	height: 500px;
+	background: lightgrey;
+	margin: 20px;
+	padding: 15px;
+	border: 3px dashed red;
+}
+
+.heading {
+	/* color property should assign the color of the text..... */
+	color: purple;
+	/* text-align has multiple value like "left", "right", "center", "justify"..... */
+	/* justify value mean the container should put the content in vertical-alignment in both direction... */
+	text-align: center;
+	/* text-decoration have multiple value like "none", "overline", "underline", "line-through"....... */
+	text-decoration: underline;
+	/* text-transform has many value like: "uppercase", "lowercase", "capitalize".... */
+	text-transform: uppercase;
+	
+}
+
+.paragraph1 {
+	text-indent: 10%;
+	text-align: justify;
+	letter-spacing: 2px;
+	line-height: 1.8;
+}
+
+.paragraph2 {
+	text-indent: 10%;
+	text-align: justify;
+	word-spacing: 10px;
+}
+
+.last-note {
+	margin: 10%;
+	text-shadow: 2px 8px green;
+	direction: rtl;
+}
+
+.font {
+	width: 300px;
+	height: 200px;
+	background: lightgreen;
+	margin: 20px;
+	padding: 15px;
+	border: 3px dashed purple;
+	font-family: Arial, sans-serif, Helvetica;
+	/* font-style can be "normal", "italic", "oblique" */
+	font-style: italic;
+	/* 1em = 16px */
+	font-size: 1.5em;
+	/* font-weight can be "normal", "bold" */
+	font-weight: bold;
+}
