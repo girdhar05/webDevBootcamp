@@ -1,0 +1,99 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+}
+
+/* uncomment nav-bar and margin class inorder to see the effect */
+/* margin class is in the last */
+
+/* .nav-bar { */
+	/* width: 100%; */
+	/* height: 10%; */
+	/* background: lightgreen; */
+	/* color: white; */
+	/* position: sticky; */
+	/* top: 0px; */
+	/* z-index: 1234; */
+/* } */
+
+.display {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	color: white;
+	/* display has many value like 'inline', 'block', 'inline-block', 'none' */
+	display: inline-block;
+	/* visibility will just hide the element but 'display:none' will delete the element */
+	/* visibility: hidden; */
+}
+
+.overflow {
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	background: pink;
+	/* overflow has many value like 'scroll', 'hidden', 'auto', 'visible'	*/
+	/* default is 'visible' */
+	overflow: auto;
+}
+
+.opacity {
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+	color: white;
+	background: brown;
+	/* opacity lies between 0 to 1 with 1 digit of precision */
+	opacity: 0.2;
+}
+
+.box-shadow {
+	width: 400px;
+	height: 200px;
+	margin: 20px;
+	padding: 10px;
+	background: orange;
+	/* In box shadow 1st value is horizontal offset, 2nd is vertical offset */
+	/* 3rd is blur, 4th is spread and 5th is color of shadow */
+	/* negative value will do in negative direction... */
+	box-shadow: 3px 3px 3px 3px lightgreen;
+}
+
+.button {
+	width: 100px;
+	height: 50px;
+	margin: 10px;
+	background: lightgreen;
+	color: white;
+	border: none;
+	font-size: 1.2em;
+}
+
+.button:hover {
+	cursor: pointer;
+	box-shadow: 0px 5px 2px 1px grey;
+}
+
+.center {
+	width: 500px;
+	height: 100px;
+	background: #6565d0;
+	color: white;
+	padding: 10px;
+	/* position have five vlaue like 'relative', 'absolute', 'fixed', 'sticky'and 'static' */
+	position: absolute;
+	/* below code means move the box to 50% of the width from left and from top */
+	left: 50%;
+	top: 50%;
+	/* we will study transform property later */
+	transform: translate(-50%, -50%);
+}
+
+/* .margin { */
+	/* padding: 1000px; */
+/* } */
