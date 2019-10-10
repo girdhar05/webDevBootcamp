@@ -1,0 +1,25 @@
+.first > p{
+	background: pink;
+}
+
+.first + p {
+	background: lightgreen;
+}
+
+.first ~ div {
+	background: yellow;
+}
+
+a[href="https://google.com"] {
+	background: red;
+}
+
+input[type="text"] {
+	padding: 10px;
+	font-family: serif;
+	font-size: 1.2em;
+	border-style: none;
+	border-bottom: 3px solid pink;
+	outline: none;
+	margin-left: 20px;
+}
